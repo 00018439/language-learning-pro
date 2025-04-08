@@ -20,3 +20,38 @@ A simple web application to create, manage, and learn vocabulary flashcards. Use
    git clone https://github.com/00018439/language-learning-pro
    https://language-learning-pro.glitch.me
    https://glitch.com/edit/#!/language-learning-pro
+
+2. Navigate to the project folder:
+   ```bash
+   cd language-learning-app
+   ```
+
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the application locally:
+   ```bash
+   node app.js
+   ```
+
+5. Open the app in your browser:
+   ```bash
+   http://localhost:3000
+   ```
+
+## Dependencies
+
+- Express.js
+- SQLite3
+- Pug (Template Engine)
+- Express-validator
+
+## GitHub Repository
+
+https://github.com/00018439/language-learning-pro 
+https://language-learning-pro.glitch.me
+https://glitch.com/edit/#!/language-learning-pro
+
+```
