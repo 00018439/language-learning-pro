@@ -18,3 +18,5 @@ A simple web application to create, manage, and learn vocabulary flashcards. Use
 1. Clone the repository:
    ```bash
    git clone https://github.com/00018439/language-learning-pro
+   https://language-learning-pro.glitch.me
+   https://glitch.com/edit/#!/language-learning-pro
