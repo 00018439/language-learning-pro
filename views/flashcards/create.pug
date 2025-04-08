@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+  h2 Create Flashcard
+  form(method="post")
+    label Word:
+    input(type="text", name="word")
+    br
+    label Translation:
+    input(type="text", name="translation")
+    br
+    label Example:
+    input(type="text", name="example")
+    br
+    button(type="submit") Save
+    

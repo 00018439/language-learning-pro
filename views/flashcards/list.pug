@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  h2 Flashcards
+  a(href="/flashcards/create") + Add New Flashcard
+  ul
+    each card in cards
+      li
+        strong #{card.word} - #{card.translation}
+        |  (#{card.example})
+        a(href=`/flashcards/${card.id}/edit`) [Edit]
+        form(action=`/flashcards/${card.id}/delete`, method="post", style="display:inline")
+          button(type="submit") Delete

@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  h2 Edit Flashcard
+  form(method="post")
+    label Word:
+    input(type="text", name="word", value=card.word)
+    br
+    label Translation:
+    input(type="text", name="translation", value=card.translation)
+    br
+    label Example:
+    input(type="text", name="example", value=card.example)
+    br
+    button(type="submit") Update
